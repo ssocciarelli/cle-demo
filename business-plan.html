@@ -1,434 +1,148 @@
+<!doctype html>
+<html lang="fr-CA" data-lang="fr" data-title-fr="Clé — Plan d’affaires public retiré" data-title-en="Clé — Public business plan withdrawn">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Clé — Investor business plan for the Clé real-estate platform (Montréal).">
+<title>Clé — Plan d’affaires public retiré</title>
+<meta name="description" content="Le plan d’affaires public de Clé a été retiré. Les plans de l’entreprise seront revus avec des partenaires de conception. / Clé’s public business plan has been withdrawn.">
+<link rel="canonical" href="https://ssocciarelli.github.io/cle-demo/business-plan.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Clé">
-<meta property="og:title" content="Clé — Investor Business Plan">
-<meta property="og:description" content="Confidential investor business plan — Quebec market data, five-year model, regulatory strategy, $3.5M seed ask.">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:locale:alternate" content="en_CA">
+<meta property="og:title" content="Clé — Plan d’affaires public retiré / Public business plan withdrawn">
+<meta property="og:description" content="Les plans de Clé seront revus avec des partenaires de conception. Consultez la présentation de l’entreprise.">
 <meta property="og:url" content="https://ssocciarelli.github.io/cle-demo/business-plan.html">
 <meta property="og:image" content="https://ssocciarelli.github.io/cle-demo/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 74 74'%3E%3Cg fill='none' stroke='%23eab308' stroke-width='10' stroke-linecap='round'%3E%3Cpath d='M 42.4 13.6 A 19 19 0 1 0 42.4 42.4'/%3E%3Cpath d='M 44 42 L 63 61'/%3E%3Cpath d='M 51 49 L 44.5 55.5'/%3E%3Cpath d='M 60 58 L 52 66'/%3E%3C/g%3E%3C/svg%3E">
-<title>Clé — Investor Business Plan</title>
 <style>
-  :root{
-    --ink:#1c1917; --muted:#78716c; --faint:#a8a29e; --line:#e7e5e4; --paper:#faf9f7;
-    --green:#065f46; --green-2:#047857; --green-soft:#ecfdf5; --gold:#b45309; --gold-soft:#fffbeb;
-    --s1:#065f46; --s2:#34d399; --s3:#d97706; --s4:#0e7490; --s5:#a8a29e;
-  }
+  :root{--ink:#1c1917;--ink2:#44403c;--muted:#57534e;--line:#e7e5e4;--paper:#faf9f7;--white:#fff;
+    --green:#065f46;--green2:#047857;--gsoft:#ecfdf5;--gline:#a7f3d0;--gold:#b45309;--goldl:#fcd34d;--amber:#f59e0b;--goldsoft:#fffbeb}
+  *{box-sizing:border-box}
   html{background:var(--paper)}
-  body{margin:0;color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  .doc{max-width:920px;margin:0 auto;padding:0 28px 80px}
-  h1,h2,h3,.serif{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.01em}
-  h2{font-size:28px;margin:0 0 6px}
-  h3{font-size:19px;margin:28px 0 8px}
-  p{margin:10px 0}
-  .sec{background:#fff;border:1px solid var(--line);border-radius:14px;padding:40px 48px;margin-top:26px}
-  .kicker{font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
-  .lead{font-size:16.5px;color:#44403c}
-  .muted{color:var(--muted)} .small{font-size:12.5px} .faint{color:var(--faint)}
-  .num{font-variant-numeric:tabular-nums}
-  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:13.5px}
-  th{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600;text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink)}
-  td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-  tr.total td{border-top:2px solid var(--ink);border-bottom:none;font-weight:700}
-  td.r,th.r{text-align:right}
-  .tablewrap{overflow-x:auto}
-  .grid{display:grid;gap:14px} .g2{grid-template-columns:1fr 1fr} .g3{grid-template-columns:1fr 1fr 1fr} .g4{grid-template-columns:repeat(4,1fr)}
-  @media(max-width:720px){.g2,.g3,.g4{grid-template-columns:1fr}.sec{padding:28px 22px}}
-  .tile{border:1px solid var(--line);border-radius:10px;padding:16px 18px;background:var(--paper)}
-  .tile .v{font-family:Georgia,serif;font-size:26px;line-height:1.2;margin-top:2px}
-  .tile .l{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
-  .tile .s{font-size:12px;color:var(--muted);margin-top:4px}
-  .green{color:var(--green)} .gold{color:var(--gold)} .red{color:#b91c1c}
-  .callout{border-left:3px solid var(--green);background:var(--green-soft);border-radius:0 10px 10px 0;padding:14px 18px;margin:16px 0;font-size:14px}
-  .warn{border-left:3px solid var(--gold);background:var(--gold-soft);border-radius:0 10px 10px 0;padding:14px 18px;margin:16px 0;font-size:14px}
-  .chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:12px;color:var(--muted);margin:2px 4px 2px 0;background:#fff}
-  .src{font-size:11px;color:var(--faint);vertical-align:super}
-  ul{margin:8px 0;padding-left:22px} li{margin:5px 0}
-  .legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--muted);margin-top:10px}
-  .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
-  .cover{background:linear-gradient(160deg,#04352a 0%,#065f46 70%,#0a7a5a 100%);color:#f5f5f4;border-radius:16px;margin-top:28px;padding:72px 56px 56px;position:relative;overflow:hidden}
-  .cover .kicker{color:#fcd34d}
-  .cover h1{font-size:52px;line-height:1.08;margin:10px 0 18px;color:#fafaf9}
-  .cover p{color:#d6d3d1;max-width:560px}
-  .coverfoot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:56px;padding-top:18px;border-top:1px solid rgba(250,250,249,.25);font-size:12.5px;color:#d6d3d1}
+  body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper)}
+  [data-lang="fr"] .en,[data-lang="en"] .fr{display:none!important}
+  a{color:var(--green2);text-underline-offset:2px}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+  .skip{position:absolute;left:12px;top:-60px;z-index:30;background:#fff;color:var(--ink);padding:8px 14px;border-radius:8px;font-weight:600}
+  .skip:focus{top:12px}
+  h1,h2,.serif{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.01em}
+
+  header.band{background:linear-gradient(150deg,#032e24 0%,#04503c 60%,#065f46 100%);color:#f5f5f4}
+  .bandin{max-width:880px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
   .logo{display:flex;align-items:flex-end}
-  .logo .word{font-family:Georgia,serif;font-size:44px;line-height:1;color:#fafaf9;margin-left:-.34em}
-  .logo .dot{color:#f59e0b}
-  .toc{columns:2;gap:32px;font-size:14px}
-  .toc div{margin:6px 0;break-inside:avoid}
-  .toc b{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:600;margin-right:8px}
-  footer.note{margin-top:26px;font-size:11.5px;color:var(--faint);line-height:1.6}
-  @media print{
-    body{font-size:12.5px}
-    .sec{border:none;padding:24px 0;margin:0;break-inside:avoid-page}
-    .pb{page-break-before:always}
-    .cover{border-radius:0}
-    a{color:inherit;text-decoration:none}
+  .logo svg{flex-shrink:0}
+  .logo .word{font-weight:800;letter-spacing:-.04em;line-height:1;margin-left:-.34em;color:#fafaf9;font-size:40px}
+  .logo .dot{color:var(--amber)}
+  .lang{display:flex;gap:4px;background:rgba(255,255,255,.94);border-radius:999px;padding:4px}
+  .lang button{font:600 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:transparent;border:0;border-radius:999px;min-width:44px;height:36px;padding:0 12px;cursor:pointer}
+  .lang button:hover{background:#f5f5f4}
+  .lang button[aria-pressed="true"]{background:var(--green);color:#fff}
+  .lang button:focus-visible{outline:3px solid var(--goldl);outline-offset:2px}
+
+  main{max-width:880px;margin:0 auto;padding:44px 24px 20px}
+  .kick{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+  h1{font-size:clamp(32px,5vw,50px);line-height:1.1;margin:12px 0 18px;max-width:22ch}
+  h2{font-size:clamp(22px,2.6vw,28px);line-height:1.2;margin:0 0 12px}
+  .lead{font-size:clamp(17px,2vw,19.5px);color:var(--ink2);max-width:62ch;margin:0 0 12px}
+  p{max-width:68ch}
+  .card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:24px 26px}
+  .links{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0 0}
+  .lk{display:block;text-decoration:none;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 20px;min-height:44px;transition:border-color .15s}
+  .lk:hover{border-color:var(--green2)}
+  .lk .t{display:block;font-weight:650;font-size:16.5px;line-height:1.3;color:var(--green)}
+  .lk .t::after{content:"\00a0→"}
+  .lk .s{display:block;font-size:14px;color:var(--muted);margin-top:6px;line-height:1.45}
+  .lk.primary{background:var(--gsoft);border-color:var(--gline)}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:0;padding:0}
+  .note{border-left:3px solid var(--gold);background:var(--goldsoft);border-radius:0 12px 12px 0;padding:16px 20px;margin-top:30px}
+  .note .h{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#78350f;margin:0 0 6px}
+  .note p{margin:0;font-size:15px;color:var(--ink2);max-width:none}
+
+  footer{max-width:880px;margin:34px auto 0;padding:18px 24px 40px;border-top:1px solid var(--line);font-size:13px;line-height:1.5;color:var(--muted)}
+  footer p{margin:0 0 8px;max-width:none}
+  @media (max-width:760px){
+    main{padding-top:30px}
+    .links{grid-template-columns:1fr}
+    .card{padding:20px}
+    .logo svg{width:44px!important;height:44px!important}
+    .logo .word{font-size:34px}
   }
-  a{color:var(--green-2)}
+  @media (prefers-reduced-motion:reduce){.lk{transition:none}}
 </style>
+</head>
+<body>
+<a class="skip" href="#main"><span class="fr">Aller au contenu</span><span class="en" lang="en">Skip to content</span></a>
 
-<div class="doc">
-
-  <!-- ═══ COVER ═══ -->
-  <div class="cover">
-    <div class="logo">
-      <svg viewBox="0 0 74 74" style="width:74px;height:74px;flex-shrink:0"><defs><linearGradient id="nk1" gradientUnits="userSpaceOnUse" x1="8" y1="4" x2="62" y2="66"><stop offset="0" stop-color="#fde68a"/><stop offset="0.45" stop-color="#eab308"/><stop offset="1" stop-color="#996207"/></linearGradient></defs><g fill="none" stroke="#3a2503" stroke-width="9" stroke-linecap="round" opacity="0.4" transform="translate(0,1.8)"><path d="M 42.4 13.6 A 19 19 0 1 0 42.4 42.4"/><path d="M 44 42 L 63 61"/><path d="M 51 49 L 44.5 55.5"/><path d="M 60 58 L 52 66"/></g><g fill="none" stroke="url(#nk1)" stroke-width="9" stroke-linecap="round"><path d="M 42.4 13.6 A 19 19 0 1 0 42.4 42.4"/><path d="M 44 42 L 63 61"/><path d="M 51 49 L 44.5 55.5"/><path d="M 60 58 L 52 66"/></g><path d="M 36 5.6 A 20.5 20.5 0 0 0 13 15.4" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="2.8" stroke-linecap="round"/></svg>
-      <span class="word">lé<span class="dot">.</span></span>
+<header class="band">
+  <div class="bandin">
+    <div class="logo" role="img" aria-label="Clé">
+      <svg viewBox="0 0 74 74" style="width:52px;height:52px" aria-hidden="true"><defs><linearGradient id="nk1" gradientUnits="userSpaceOnUse" x1="8" y1="4" x2="62" y2="66"><stop offset="0" stop-color="#fde68a"/><stop offset="0.45" stop-color="#eab308"/><stop offset="1" stop-color="#996207"/></linearGradient></defs><g fill="none" stroke="#3a2503" stroke-width="9" stroke-linecap="round" opacity="0.4" transform="translate(0,1.8)"><path d="M 42.4 13.6 A 19 19 0 1 0 42.4 42.4"/><path d="M 44 42 L 63 61"/><path d="M 51 49 L 44.5 55.5"/><path d="M 60 58 L 52 66"/></g><g fill="none" stroke="url(#nk1)" stroke-width="9" stroke-linecap="round"><path d="M 42.4 13.6 A 19 19 0 1 0 42.4 42.4"/><path d="M 44 42 L 63 61"/><path d="M 51 49 L 44.5 55.5"/><path d="M 60 58 L 52 66"/></g><path d="M 36 5.6 A 20.5 20.5 0 0 0 13 15.4" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="2.8" stroke-linecap="round"/></svg>
+      <span class="word" aria-hidden="true">lé<span class="dot">.</span></span>
     </div>
-    <div class="kicker" style="margin-top:36px">Investor Business Plan · Confidential</div>
-    <h1>The key to Quebec real&nbsp;estate — sell, buy&nbsp;together, invest.</h1>
-    <p>Clé unifies five proven models on one verified platform: owner-direct selling without commission, a complete marketplace, group property purchase, regulated revenue-share investing, and a professional network — built for Montréal first, engineered for Canada.</p>
-    <div class="coverfoot">
-      <span>Clé Technologies inc. (in formation) · Montréal, Québec</span>
-      <span>August 2026 · Draft for discussion · EN — version française sur demande</span>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button type="button" data-set-lang="fr" lang="fr" aria-label="Français" aria-pressed="true">FR</button>
+      <button type="button" data-set-lang="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
     </div>
   </div>
+</header>
 
-  <!-- ═══ TOC ═══ -->
-  <div class="sec">
-    <div class="kicker">Contents</div>
-    <div class="toc">
-      <div><b>01</b> Executive summary</div>
-      <div><b>02</b> The market opportunity</div>
-      <div><b>03</b> The product — built and clickable today</div>
-      <div><b>04</b> Business model &amp; unit economics</div>
-      <div><b>05</b> Validation &amp; roadmap</div>
-      <div><b>06</b> Five-year financial projections</div>
-      <div><b>07</b> Competitive landscape</div>
-      <div><b>08</b> Regulatory strategy</div>
-      <div><b>09</b> Risks &amp; mitigations</div>
-      <div><b>10</b> The team</div>
-      <div><b>11</b> The ask &amp; use of funds</div>
-      <div><b>12</b> Sources, methodology &amp; disclaimers</div>
-    </div>
+<main id="main">
+  <div class="kick"><span class="fr">Avis · septembre 2026</span><span class="en" lang="en">Notice · September 2026</span></div>
+  <h1><span class="fr">Le plan d’affaires public a été retiré</span><span class="en" lang="en">The public business plan has been withdrawn</span></h1>
+  <p class="lead"><span class="fr">La version du plan d’affaires de Clé auparavant publiée à cette adresse n’est plus en ligne. Elle ne reflète plus l’orientation de l’entreprise.</span><span class="en" lang="en">The version of Clé’s business plan previously published at this address is no longer online. It no longer reflects the company’s direction.</span></p>
+
+  <div class="card" style="margin-top:26px">
+    <h2><span class="fr">Ce qui se passe maintenant</span><span class="en" lang="en">What happens now</span></h2>
+    <p style="margin:0 0 10px"><span class="fr">Les plans de Clé seront revus avec des partenaires de conception, que Clé cherche maintenant&nbsp;: des conseillers en transfert d’entreprise (CPA, notaires, avocats) et des équipes de courtage commercial et plex. Aucun partenaire n’est engagé à ce jour&nbsp;; le produit, son prix et son modèle seront mis à l’épreuve avec eux avant tout lancement.</span><span class="en" lang="en">Clé’s plans will be revised with design partners, whom Clé is now looking for: business-transfer advisers (CPAs, notaries, lawyers) and commercial and multiplex broker teams. No partner has signed on yet; the product, its pricing and its model will be tested with them before any launch.</span></p>
+    <p style="margin:0"><span class="fr">Le modèle retenu est simple&nbsp;: des abonnements à prix fixe pour les professionnels et les cabinets, jamais conditionnels au résultat ou à la valeur d’une transaction, ni liés à une référence, à un client potentiel, à une vente ou à une levée de fonds. Ce site ne publie aucune projection financière.</span><span class="en" lang="en">The model is simple: flat subscriptions for professionals and firms, never contingent on the outcome or value of a deal, and never tied to a referral, a lead, a sale or a raise. This site publishes no financial projections.</span></p>
   </div>
 
-  <!-- ═══ 01 EXEC SUMMARY ═══ -->
-  <div class="sec pb" id="s1">
-    <div class="kicker">01 · Executive summary</div>
-    <h2>Quebecers pay ~$2.1&nbsp;billion a year in commissions.<br>Clé replaces the middle with a platform.</h2>
-    <p class="lead">Quebec recorded <b>97,214 residential sales in 2025</b> — a third-best year on record — at a median of $491,500 for a single-family home.<span class="src">1</span> A typical ~5% commission means <b>$24,600 per median sale</b>, an implied provincial commission pool of <b>$1.9–2.35&nbsp;billion annually</b>.<span class="src">1,4,11</span> Quebec is already Canada's most commission-skeptical market: <b>an estimated 15–20% of homes sell without a broker</b> — the highest share in the country (sources diverge; estimates range up to 25%).<span class="src">2</span></p>
-    <p>DuProprio proved the model — $45.6M revenue, positive EBITDA, an NPS of 61 versus the industry's 38 — but stalled as a one-product company, changing hands three times at a flat $50–60M valuation.<span class="src">3</span> The lesson is not that the opportunity is small; it is that <b>a listing package alone has a ceiling</b>.</p>
-    <p><b>Clé stacks five engines on one verified network</b> so every user compounds the value of the next: owner-direct listings (proven demand), professional subscriptions (LinkedIn economics), group property purchase (the co-ownership wave institutional capital is already backing — Ourboro alone has co-invested in 250+ homes with Scotiabank and CMHC behind it<span class="src">7</span>), a regulated capital platform (exempt-market dealer economics), and discreet, capped advertising. A fully interactive, trilingual prototype with integrated AI is built and demonstrable today — live at <a href="https://ssocciarelli.github.io/cle-demo/">ssocciarelli.github.io/cle-demo</a>. The founding team and advisors are presented in §10; the plan states its pre-launch status plainly in §05.</p>
-    <div class="grid g4" style="margin-top:20px">
-      <div class="tile"><div class="l">Quebec market 2025</div><div class="v num">$47B</div><div class="s">97,214 residential sales<span class="src">1</span></div></div>
-      <div class="tile"><div class="l">Commission pool</div><div class="v num">~$2.1B/yr</div><div class="s">at 4–6% rates (~5% typical), quoted at the conservative end<span class="src">4</span></div></div>
-      <div class="tile"><div class="l">Year-5 revenue</div><div class="v num green">$24.5M</div><div class="s">19% EBITDA margin; breakeven in year 4</div></div>
-      <div class="tile"><div class="l">Seed ask</div><div class="v num gold">$3.5M</div><div class="s">24-month runway; covers cumulative burn with buffer</div></div>
-    </div>
-  </div>
+  <nav class="links" aria-labelledby="links-h">
+    <h2 id="links-h" class="sr"><span class="fr">Pour aller plus loin</span><span class="en" lang="en">Where to go next</span></h2>
+    <a class="lk primary" href="deck.html" data-keep-lang>
+      <span class="t"><span class="fr">Présentation de l’entreprise</span><span class="en" lang="en">Company overview</span></span>
+      <span class="s"><span class="fr">Clé en 14 diapositives, en français et en anglais</span><span class="en" lang="en">Clé in 14 slides, in French and English</span></span>
+    </a>
+    <a class="lk" href="https://ssocciarelli.github.io/cle-portfolio/">
+      <span class="t">Portfolio</span>
+      <span class="s"><span class="fr">Le projet Clé en un coup d’œil</span><span class="en" lang="en">The Clé project at a glance</span></span>
+    </a>
+    <a class="lk" href="https://ssocciarelli.github.io/cle-mvp/">
+      <span class="t"><span class="fr">Démo sur données fictives</span><span class="en" lang="en">Demo on fictional data</span></span>
+      <span class="s"><span class="fr">Le produit construit et testé, en cours de mise à jour</span><span class="en" lang="en">The built and tested product, being updated</span></span>
+    </a>
+  </nav>
 
-  <!-- ═══ 02 MARKET ═══ -->
-  <div class="sec pb" id="s2">
-    <div class="kicker">02 · The market opportunity</div>
-    <h2>A large, liquid market with a structural pricing anomaly</h2>
-    <div class="tablewrap"><table>
-      <tr><th>Quebec residential market — 2025</th><th class="r">Volume</th><th class="r">Median price</th><th class="r">Implied value</th></tr>
-      <tr><td>Single-family homes</td><td class="r num">63,210 (+8%)</td><td class="r num">$491,500</td><td class="r num">$31.1B</td></tr>
-      <tr><td>Condominiums</td><td class="r num">24,232 (+5%)</td><td class="r num">$398,000</td><td class="r num">$9.6B</td></tr>
-      <tr><td>Plexes (2–5 units)</td><td class="r num">9,477 (+13%)</td><td class="r num">$660,000</td><td class="r num">$6.3B</td></tr>
-      <tr class="total"><td>Total</td><td class="r num">97,214</td><td class="r num">—</td><td class="r num">≈ $47.0B</td></tr>
-    </table></div>
-    <p class="small muted">Montréal CMA concentrates 47,019 sales — 48.4% of the province — with 2025 medians of $622,500 (single-family) and $425,000 (condo). Source: QPAREB annual data.<span class="src">1</span> <b>Update, 2026:</b> the single-family median reached $640,000 in Q1 2026 (+7% YoY; ≈$650,000 by July per WOWA) while volumes cooled — Montréal sales −4% in Q1 and −10.5% YoY in July. A cooling, still-expensive market strengthens the cost-saving thesis and is treated as such throughout.<span class="src">1</span> Category rows sum to 96,919; the reported provincial total of 97,214 includes ≈300 sales QPAREB does not attribute to a category.</p>
+  <aside class="note" aria-labelledby="fin-h">
+    <p class="h" id="fin-h"><span class="fr">Financement</span><span class="en" lang="en">Financing</span></p>
+    <p><span class="fr">Clé n’offre aucune valeur mobilière sur ce site. Tout financement futur de l’entreprise se ferait uniquement auprès d’investisseurs admissibles, en vertu des dispenses de prospectus applicables, au moyen de documents définitifs et après une vérification diligente indépendante. Aucune autorité en valeurs mobilières n’a examiné le contenu de ce site.</span><span class="en" lang="en">Clé is not offering securities on this site. Any future financing of the company would be made only to eligible investors under available prospectus exemptions, through definitive documents and after independent due diligence. No securities regulatory authority has reviewed the contents of this site.</span></p>
+  </aside>
+</main>
 
-    <h3>Sizing the layers</h3>
-    <div class="grid g3">
-      <div class="tile"><div class="l">Value displaced (not our revenue)</div><div class="v num">~$2.1B/yr (est.)</div><div class="s">Quebec commission pool — the anomaly Clé's flat fees attack</div></div>
-      <div class="tile"><div class="l">TAM / SAM — fee revenue, QC</div><div class="v num">≈ $120M / $55M</div><div class="s">TAM: full FSBO conversion at Clé pricing + subscription &amp; capital fees at maturity. SAM today: packages $21–28M<span class="src">2</span> + subscriptions + group &amp; capital fees</div></div>
-      <div class="tile"><div class="l">SOM — our year-5 plan</div><div class="v num green">$24.5M</div><div class="s">Québec at depth + Ontario entry in years 4–5</div></div>
-    </div>
+<footer>
+  <p class="fr">Démonstration&nbsp;: personnes, entreprises, propriétés et chiffres fictifs. Aucune transaction, aucun paiement et aucune valeur mobilière réels. Clé n’est pas une agence immobilière, ne détient aucun permis de l’OACIQ ni inscription auprès de l’AMF, et ne donne aucun avis juridique, fiscal ou de placement. Ce site ne dépose aucun témoin ni traceur.</p>
+  <p class="en" lang="en">Demonstration: all people, firms, properties and figures are fictional. No real transactions, payments or securities. Clé is not a real-estate agency, holds no OACIQ licence or AMF registration, and gives no legal, tax or investment advice. This site sets no cookies or trackers.</p>
+  <p style="margin:0">Clé · Montréal</p>
+</footer>
 
-    <h3>Why now</h3>
-    <ul>
-      <li><b>Affordability is forcing collective ownership.</b> Median Montréal single-family prices rose 9% in 2025 to $622,500 and a further ~7% YoY into 2026 (Q1: $640,000)<span class="src">1</span>; co-buying platforms (Ourboro, Key, Pacaso's US$72.5M round) show institutional conviction that pooled ownership is the next primitive.<span class="src">7</span></li>
-      <li><b>The FSBO incumbent is a harvest asset.</b> DuProprio, owned by a bank-insurer since 2020, has not shipped a second act; its own customers are the beachhead for a broader platform.<span class="src">3</span></li>
-      <li><b>Retail capital is structurally locked out.</b> Canada's entire start-up-crowdfunding channel moved only ~$5M in its best year<span class="src">5</span> — not for lack of demand (US peers: Arrived US$340M, Fundrise US$3.3B AUM<span class="src">6</span>) but for lack of a trusted, compliant consumer front-end. That is a product problem, and product problems are venture opportunities.</li>
-      <li><b>Québec subsidizes exactly this build.</b> CRIC R&amp;D credits (up to 30%, available from year one), CDAE-IA e-business credits (30% combined, once the six-eligible-employee threshold is sustained), and the $200M Fonds Impulsion (SAFE/KISS co-investment, $250K–$2M) lower the effective cost of our engineering roadmap.<span class="src">8</span></li>
-    </ul>
-  </div>
-
-  <!-- ═══ 03 PRODUCT ═══ -->
-  <div class="sec pb" id="s3">
-    <div class="kicker">03 · The product</div>
-    <h2>Five engines, one verified network — built and clickable today</h2>
-    <p class="lead">Clé is not a concept deck. A fully interactive prototype — trilingual (FR/EN/IT), AI-assisted, with every flow working end-to-end — exists now and is demonstrated live in investor meetings.</p>
-    <div class="grid g2">
-      <div class="tile"><b>1 · Proprio-direct (sell without commission)</b><div class="s">Fixed packages at $1,199 / $1,599 / $1,999 mirroring the market-validated ladder<span class="src">3</span>: pro photos, coaching, FOR-SALE sign, notary on file. Listing wizard with AI pricing assessment, comparables-based suggestions, real photo upload, seller dashboard with leads, views and 48-hour follow-up nudges.</div></div>
-      <div class="tile"><b>2 · Marketplace</b><div class="s">Properties from $450K condos to $40M development sites; confidential business-for-sale listings gated behind e-signed NDAs with logged access; verified brokers and notaries attached to every file; favorites, alerts, price history, neighbourhood scores, Canadian-formula mortgage calculator.</div></div>
-      <div class="tile"><b>3 · Buy groups (achat en groupe)</b><div class="s">Start a purchase consortium on any listing: pooled down payments, 49.9% per-member cap, double-majority governance per art. 1026 C.c.Q., notarized co-ownership agreement, funds in notary trust, group offer flowing into a secure deal room.</div></div>
-      <div class="tile"><b>4 · Capital platform</b><div class="s">Revenue-share campaigns from $100/unit under NI 45-110 (caps, all-or-nothing, 48-h withdrawal, risk forms — all modeled in-product), institutional-grade structured offerings, a financing wizard that routes each project to its correct legal lane, and a portfolio view with distribution schedules and annual buy-back windows.</div></div>
-      <div class="tile"><b>5 · Professional network</b><div class="s">LinkedIn-style profiles with a three-level verification ladder culminating in licence checks against OACIQ, OIQ, OAQ, CNQ, Barreau and RBQ registries; feed, messaging, quote requests, consultations — and discreet, hard-capped native advertising (at most 1 sponsored post in 6).</div></div>
-      <div class="tile" style="background:var(--green-soft);border-color:#a7f3d0"><b>Clé IA</b><div class="s">AI woven through the product: natural-language search ("condo à Rosemont sous 600k" → parsed, answered, linked), instant property assessments grounded in comparables, neighbourhood data and uploaded photos, and pricing guidance for sellers. Production architecture: Claude API with vision.</div></div>
-    </div>
-    <p class="callout">A working demonstration is available at the private link supplied with this document. Every figure and profile in the prototype is fictional; every control works.</p>
-  </div>
-
-  <!-- ═══ 04 BUSINESS MODEL ═══ -->
-  <div class="sec pb" id="s4">
-    <div class="kicker">04 · Business model</div>
-    <h2>Five revenue streams, each benchmarked to a proven price</h2>
-    <div class="tablewrap"><table>
-      <tr><th>Stream</th><th>Pricing</th><th>Benchmark</th><th class="r">Year-5 revenue</th></tr>
-      <tr><td><b>Owner-direct packages</b></td><td class="num">$1,199–$1,999 flat (avg $1,450)</td><td>Identical to the incumbent's validated 2025 ladder<span class="src">3</span></td><td class="r num">$18.0M</td></tr>
-      <tr><td><b>Subscriptions</b></td><td class="num">Pro $39/mo · Firm $249/mo</td><td>LinkedIn Premium economics applied to a vertical network</td><td class="r num">$2.5M</td></tr>
-      <tr><td><b>Buy-group fees</b></td><td class="num">$2,500 flat package</td><td>Non-contingent group-formation package (brokerage-law safe); vs. Ourboro's equity-share model</td><td class="r num">$0.8M</td></tr>
-      <tr><td><b>Capital platform</b></td><td class="num">2% partner-era → 5% + 0.75% trail</td><td>Under EMD/portal norms of 6–8%<span class="src">5</span></td><td class="r num">$2.5M</td></tr>
-      <tr><td><b>Discreet advertising</b></td><td class="num">Native, labelled, hard-capped</td><td>Native only; 1-in-6 feed cap (≈17% ceiling) enforced in code</td><td class="r num">$0.6M</td></tr>
-    </table></div>
-    <h3>Unit economics — pre-launch hypotheses, to be validated on first cohorts by month 12</h3>
-    <div class="grid g3">
-      <div class="tile"><div class="l">Seller acquisition</div><div class="v num">5.3×</div><div class="s">≈$1,160 contribution ($1,500 avg package − $340 direct fulfillment) vs. ~$220 blended CAC target — revenue on day one</div></div>
-      <div class="tile"><div class="l">Professional subscriber</div><div class="v num">7.8×</div><div class="s">≈$1,170 LTV hypothesis (30-mo avg life ≈ 33%/yr churn; vertical-SaaS range) vs. ~$150 CAC via the seller-side flywheel</div></div>
-      <div class="tile"><div class="l">The flywheel</div><div class="v">Sellers → Pros → Capital</div><div class="s">Every listing recruits professionals; every professional feeds deal flow; every deal seeds investors</div></div>
-    </div>
-  </div>
-
-  <!-- ═══ 05 TRACTION ═══ -->
-  <div class="sec pb" id="s5">
-    <div class="kicker">05 · Validation &amp; roadmap</div>
-    <h2>The de-risked path: revenue first, licence second</h2>
-    <p class="warn" style="margin-top:6px"><b>Where we are, plainly:</b> pre-launch and pre-revenue. Validation to date is a complete working prototype (live at the link in §03), the market research in this plan, and the regulatory path mapped with primary sources. No signed users, waitlist counts or LOIs are claimed here — those are the first 6 months' work.</p>
-    <div class="tablewrap"><table>
-      <tr><th style="width:120px">Phase</th><th>Timing</th><th>What ships</th><th>Regulatory posture</th></tr>
-      <tr><td><b>0 — Done</b></td><td class="num">Today</td><td>Full interactive prototype: all five engines, trilingual, AI-assisted — publicly demonstrable</td><td>—</td></tr>
-      <tr><td><b>1 — Launch</b></td><td class="num">Months 0–6</td><td>Network, Proprio-direct listings, marketplace, active buy-groups (notary-executed)</td><td>No securities licence required; OACIQ-boundary legal opinion; Law 25 program</td></tr>
-      <tr><td><b>2 — Capital via partner</b></td><td class="num">Months 6–18</td><td>Revenue-share campaigns ≤$1.5M through a registered funding portal (white-label)</td><td>NI 45-110 through partner; Clé earns tech &amp; marketing fees</td></tr>
-      <tr><td><b>3 — Own dealer</b></td><td class="num">Months 15–30</td><td>Clé Capital inc. registered as EMD: OM offerings, accredited rounds, $10K crowdfunding tier</td><td>$50K regulatory capital, CCO hired, AMF registration<span class="src">5</span></td></tr>
-    </table></div>
-    <p><b>Seed-period milestones (24 months):</b> 1,200 paid listings · 700 Pro subscribers · 34 buy-groups closed (cumulative) · first $2M GMV via partner portal · EMD application filed · ≈$2.4M revenue in year 2 (≈$3.4M annualized run-rate exiting the year).</p>
-  </div>
-
-  <!-- ═══ 06 FINANCIALS ═══ -->
-  <div class="sec pb" id="s6">
-    <div class="kicker">06 · Financial projections</div>
-    <h2>To $24.5M revenue and a 19% EBITDA margin in five years</h2>
-    <p class="small muted">All figures CAD thousands, fiscal years. Illustrative projections from a parameterized model (source available in diligence); every assumption is listed below. Fulfillment costs are modeled explicitly, and capital-platform volumes are sized against <i>actual</i> Canadian exempt-market data — not US analogues.</p>
-    <div class="tablewrap"><table class="num">
-      <tr><th>Revenue</th><th class="r">FY27</th><th class="r">FY28</th><th class="r">FY29</th><th class="r">FY30</th><th class="r">FY31</th></tr>
-      <tr><td>Owner-direct packages</td><td class="r">450</td><td class="r">1,800</td><td class="r">5,250</td><td class="r">10,500</td><td class="r">18,000</td></tr>
-      <tr><td>Subscriptions (Pro + Firm)</td><td class="r">106</td><td class="r">372</td><td class="r">977</td><td class="r">1,643</td><td class="r">2,541</td></tr>
-      <tr><td>Buy-group fees</td><td class="r">15</td><td class="r">70</td><td class="r">225</td><td class="r">475</td><td class="r">825</td></tr>
-      <tr><td>Capital platform (fees + trail)</td><td class="r">0</td><td class="r">40</td><td class="r">475</td><td class="r">1,225</td><td class="r">2,525</td></tr>
-      <tr><td>Discreet advertising</td><td class="r">30</td><td class="r">90</td><td class="r">220</td><td class="r">400</td><td class="r">620</td></tr>
-      <tr class="total"><td>Total revenue</td><td class="r">601</td><td class="r">2,372</td><td class="r">7,147</td><td class="r">14,243</td><td class="r">24,511</td></tr>
-    </table></div>
-    <div class="tablewrap"><table class="num">
-      <tr><th>Costs &amp; profitability</th><th class="r">FY27</th><th class="r">FY28</th><th class="r">FY29</th><th class="r">FY30</th><th class="r">FY31</th></tr>
-      <tr><td>Team (8 → 60 FTE, fully loaded)</td><td class="r">944</td><td class="r">1,652</td><td class="r">3,068</td><td class="r">4,956</td><td class="r">7,080</td></tr>
-      <tr><td>Fulfillment — $340/listing (photos, sign, coaching)</td><td class="r">102</td><td class="r">408</td><td class="r">1,190</td><td class="r">2,380</td><td class="r">4,080</td></tr>
-      <tr><td>Marketing &amp; growth</td><td class="r">300</td><td class="r">949</td><td class="r">2,144</td><td class="r">3,418</td><td class="r">4,902</td></tr>
-      <tr><td>Compliance &amp; legal (incl. EMD)</td><td class="r">180</td><td class="r">320</td><td class="r">700</td><td class="r">850</td><td class="r">1,000</td></tr>
-      <tr><td>Technology &amp; infrastructure</td><td class="r">90</td><td class="r">160</td><td class="r">320</td><td class="r">520</td><td class="r">760</td></tr>
-      <tr><td>G&amp;A (8% of revenue)</td><td class="r">48</td><td class="r">190</td><td class="r">572</td><td class="r">1,139</td><td class="r">1,961</td></tr>
-      <tr class="total"><td>Total costs</td><td class="r">1,664</td><td class="r">3,679</td><td class="r">7,994</td><td class="r">13,264</td><td class="r">19,783</td></tr>
-      <tr class="total"><td>EBITDA</td><td class="r red">(1,064)</td><td class="r red">(1,306)</td><td class="r red">(847)</td><td class="r green">979</td><td class="r green">4,728</td></tr>
-      <tr><td class="muted">EBITDA margin</td><td class="r muted">−177%</td><td class="r muted">−55%</td><td class="r muted">−12%</td><td class="r green">7%</td><td class="r green">19%</td></tr>
-    </table></div>
-
-    <div class="grid g2" style="margin-top:22px;align-items:end">
-      <div>
-        <h3 style="margin-top:0">Revenue by stream ($M)</h3>
-        <svg viewBox="0 0 460 300" style="width:100%;max-width:440px">
-          <line x1="36" y1="260" x2="450" y2="260" stroke="#d6d3d1"/>
-          <g stroke="#fff" stroke-width="1.2">
-            <rect x="60" y="255.6" width="56" height="4.4" fill="#065f46"/>
-            <rect x="60" y="254.6" width="56" height="1.0" fill="#34d399"/>
-            <rect x="140" y="242.4" width="56" height="17.6" fill="#065f46"/>
-            <rect x="140" y="238.7" width="56" height="3.6" fill="#34d399"/>
-            <rect x="140" y="238.0" width="56" height="0.7" fill="#d97706"/>
-            <rect x="140" y="237.2" width="56" height="0.9" fill="#a8a29e"/>
-            <rect x="220" y="208.6" width="56" height="51.4" fill="#065f46"/>
-            <rect x="220" y="199.0" width="56" height="9.6" fill="#34d399"/>
-            <rect x="220" y="196.8" width="56" height="2.2" fill="#d97706"/>
-            <rect x="220" y="192.2" width="56" height="4.7" fill="#0e7490"/>
-            <rect x="220" y="190.0" width="56" height="2.2" fill="#a8a29e"/>
-            <rect x="300" y="157.2" width="56" height="102.8" fill="#065f46"/>
-            <rect x="300" y="141.1" width="56" height="16.1" fill="#34d399"/>
-            <rect x="300" y="136.5" width="56" height="4.7" fill="#d97706"/>
-            <rect x="300" y="124.5" width="56" height="12.0" fill="#0e7490"/>
-            <rect x="300" y="120.5" width="56" height="3.9" fill="#a8a29e"/>
-            <rect x="380" y="83.8" width="56" height="176.2" fill="#065f46"/>
-            <rect x="380" y="58.9" width="56" height="24.9" fill="#34d399"/>
-            <rect x="380" y="50.8" width="56" height="8.1" fill="#d97706"/>
-            <rect x="380" y="26.1" width="56" height="24.7" fill="#0e7490"/>
-            <rect x="380" y="20.0" width="56" height="6.1" fill="#a8a29e"/>
-          </g>
-          <g font-size="12" fill="#1c1917" text-anchor="middle" font-family="Georgia,serif">
-            <text x="88" y="248">0.6</text><text x="168" y="230">2.4</text>
-            <text x="248" y="183">7.1</text><text x="328" y="113">14.2</text><text x="408" y="13">24.5</text>
-          </g>
-          <g font-size="11" fill="#78716c" text-anchor="middle">
-            <text x="88" y="278">FY27</text><text x="168" y="278">FY28</text><text x="248" y="278">FY29</text>
-            <text x="328" y="278">FY30</text><text x="408" y="278">FY31</text>
-          </g>
-        </svg>
-        <div class="legend">
-          <span><span class="sw" style="background:#065f46"></span>Owner-direct</span>
-          <span><span class="sw" style="background:#34d399"></span>Subscriptions</span>
-          <span><span class="sw" style="background:#d97706"></span>Buy-groups</span>
-          <span><span class="sw" style="background:#0e7490"></span>Capital</span>
-          <span><span class="sw" style="background:#a8a29e"></span>Advertising</span>
-        </div>
-        <p class="small faint" style="margin-top:6px">Sub-$100K segments render below label size in early years; exact figures in the table above.</p>
-      </div>
-      <div>
-        <h3 style="margin-top:0">EBITDA ($M)</h3>
-        <svg viewBox="0 0 460 300" style="width:100%;max-width:440px">
-          <line x1="36" y1="180" x2="450" y2="180" stroke="#1c1917" stroke-width="1.4"/>
-          <g stroke="#fff" stroke-width="1.2">
-            <rect x="60"  y="180" width="56" height="24.7" fill="#dc8f8f"/>
-            <rect x="140" y="180" width="56" height="30.4" fill="#dc8f8f"/>
-            <rect x="220" y="180" width="56" height="19.7" fill="#dc8f8f"/>
-            <rect x="300" y="157.2" width="56" height="22.8" fill="#047857"/>
-            <rect x="380" y="70.0" width="56" height="110" fill="#047857"/>
-          </g>
-          <g font-size="12" fill="#1c1917" text-anchor="middle" font-family="Georgia,serif">
-            <text x="88" y="219">−1.1</text><text x="168" y="225">−1.3</text><text x="248" y="214">−0.8</text>
-            <text x="328" y="151">+1.0</text><text x="408" y="63">+4.7</text>
-          </g>
-          <g font-size="11" fill="#78716c" text-anchor="middle">
-            <text x="88" y="250">FY27</text><text x="168" y="250">FY28</text><text x="248" y="250">FY29</text>
-            <text x="328" y="250">FY30</text><text x="408" y="250">FY31</text>
-          </g>
-          <text x="40" y="172" font-size="11" fill="#78716c">breakeven FY30</text>
-        </svg>
-        <p class="small muted" style="margin-top:14px">Cumulative EBITDA burn to breakeven: ≈ <b class="num">$3.2M</b> — covered by the $3.5M seed, before counting Québec tax-credit and matching leverage.</p>
-      </div>
-    </div>
-
-    <h3>Key assumptions</h3>
-    <ul class="small">
-      <li><b>Listings:</b> 300 → 12,000 paid listings by FY31 at a $1,500 average package (benchmark: the incumbent's FY2017 revenue per listing of ≈$1,170, ≈$1,500 in today's dollars<span class="src">3</span>). FY31 volume equals <b>62–82% of Quebec's current 14,600–19,400 annual FSBO sales</b><span class="src">2</span> — explicitly a displacement of DuProprio's Quebec base — <i>plus</i> Ontario contribution from FY30. At a more conservative 35% share of Quebec FSBO with no Ontario, FY31 owner-direct revenue is ≈$8.6M and breakeven moves ~3 quarters into FY31.</li>
-      <li><b>Fulfillment:</b> $340 per listing for photography, signage and coaching time through a volume partner network — modeled as a direct cost line, not buried.</li>
-      <li><b>Subscriptions:</b> 200 → 4,600 Pro members ($468/yr) against ~20,000+ licensed brokers, notaries, inspectors and contractors in Quebec; 130 firm accounts by FY31; 33%/yr churn hypothesis pending cohort data.</li>
-      <li><b>Capital platform:</b> GMV $2M (FY28, partner portal) → $40M (FY31, own EMD) at a blended 5% placement fee + 0.75% trailing administration. <b>FY31 lane split: ~$4M under 45-110</b> (crowdfunding tier — comparable to today's entire national channel<span class="src">5</span>), <b>~$26M via offering-memorandum raises and ~$10M accredited</b> — the lanes where EMD economics actually live and where no issuer caps apply. For scale: FrontFundr processed $285M over ten years nationally<span class="src">5</span>; our plan assumes Quebec category leadership, not US-style volumes.</li>
-      <li><b>Costs:</b> Montréal fully-loaded average of $118K/FTE; marketing declining from 50% to 20% of revenue as the flywheel compounds; the compliance line carries the EMD build (capital, CCO, audits) from FY29.<span class="src">5</span></li>
-      <li><b>Not modeled (upside):</b> CRIC credits from year one and CDAE-IA credits after the six-employee gate, Fonds Impulsion co-investment, flat-fee (non-contingent) mortgage referrals via AMF-licensed partners, business-listing NDA fees.<span class="src">8</span></li>
-    </ul>
-    <div class="warn"><b>Sensitivity.</b> If the capital platform is delayed a full year (EMD friction), FY31 revenue falls ≈$1.5M to $23.0M and FY30 breakeven slips ~2 quarters — the listing and subscription engines still carry the company. No single engine failure is fatal; that is the point of five.</div>
-  </div>
-
-  <!-- ═══ 07 COMPETITION ═══ -->
-  <div class="sec pb" id="s7">
-    <div class="kicker">07 · Competitive landscape</div>
-    <h2>Every competitor runs one engine. Clé runs the network.</h2>
-    <div class="tablewrap"><table>
-      <tr><th>Player</th><th>Model</th><th>Scale signal</th><th>The gap Clé exploits</th></tr>
-      <tr><td><b>DuProprio</b> (Desjardins)</td><td>FSBO packages</td><td class="num">~39K listings/yr, $45.6M revenue, NPS 61 — as of FY2017, its last public disclosure; flat $50–60M valuation across three sales, 2015–2020<span class="src">3</span></td><td>One product, no network, no capital layer; five years of bank ownership without a second act</td></tr>
-      <tr><td><b>Centris / brokers</b></td><td>MLS + ~5% commission</td><td class="num">est. $2.1B/yr pool<span class="src">4,11</span></td><td>The pricing anomaly itself; brokers join Clé as verified pros instead</td></tr>
-      <tr><td><b>addy</b></td><td>Fractional investing</td><td class="num">50K members but ~$26M invested in 7 yrs; $100K BCSC penalty 2025<span class="src">9</span></td><td>Trust deficit — Clé is compliance-first by architecture, not retrofit</td></tr>
-      <tr><td><b>Willow</b></td><td>Fractional (PropSharing)</td><td class="num">~US$1M raised; sold 2023<span class="src">6</span></td><td>Standalone fractional lacks an audience; Clé's marketplace supplies one</td></tr>
-      <tr><td><b>Ourboro / Key</b></td><td>Co-ownership capital</td><td class="num">250+ homes, &gt;$200M value; Scotiabank &amp; CMHC backing<span class="src">7</span></td><td>They co-invest their fund; Clé is the software rails for anyone's group</td></tr>
-      <tr><td><b>FrontFundr</b></td><td>Funding portal</td><td class="num">$285M / 10 yrs, 93% of the 45-110 channel<span class="src">5</span></td><td>Horizontal portal, no real-estate depth or property marketplace</td></tr>
-    </table></div>
-    <p class="warn"><b>The Purplebricks question, pre-empted.</b> The best-known fixed-fee experiment collapsed and sold for £1 in the UK. Its failure modes are specific: cash-burning multi-country expansion, a salaried hybrid-agent payroll, and a market with no FSBO culture. Quebec is the opposite setup — an estimated 15–20% FSBO share built over 25 years<span class="src">2</span>, no agent payroll in our model (partner-fulfilled packages), and a single-province beachhead. DuProprio's decade of positive EBITDA in this exact market<span class="src">3</span> is the counter-example that Quebec fixed-fee works.</p>
-    <p class="callout"><b>If Desjardins responds</b> — a 30% package price cut costs DuProprio ≈$14M of annual revenue on FY2017 volumes to defend a single product line; Clé's contribution comes from five streams, so matching that cut costs us ≈7% of FY31 revenue. Their five-year shipping record under bank ownership is the practical moat; our answer to a network feature launch is 18 months of head start on verification, buy-groups and the capital stack.</p>
-    <p class="callout"><b>The FSBO objection, answered.</b> Broker-funded studies claim private sales fetch 15–20% less.<span class="src">10</span> Clé's counter is structural: AI-grounded pricing against live comparables, mandatory notary involvement, minimum photo standards, negotiation coaching, and buyer-side verification — the exact failure modes those studies exploit, productized away. DuProprio's FY2017 NPS of 61 versus the industry's 38 shows which side customers believed.<span class="src">3</span></p>
-  </div>
-
-  <!-- ═══ 08 REGULATORY ═══ -->
-  <div class="sec pb" id="s8">
-    <div class="kicker">08 · Regulatory strategy</div>
-    <h2>Compliance as product architecture, not paperwork</h2>
-    <ul>
-      <li><b>Brokerage boundary (OACIQ).</b> Owner-direct selling is legal in Quebec; the platform advertises and coaches but never represents or negotiates. DuProprio litigated and validated this line; we are designed to operate inside it, and a standing OACIQ-boundary legal opinion is a Phase-1 deliverable with counsel retained at close (§10, §11).</li>
-      <li><b>Active co-purchase ≠ securities.</b> Buy-group members hold title or voting LP units and govern by double majority (art. 1026 C.c.Q.)<span class="src">12</span> — profits do not depend on others' efforts, keeping groups outside distribution rules. The product enforces the guardrails: caps, votes, notarized agreements, notary trust accounts.</li>
-      <li><b>Capital in three lanes.</b> ≤$1.5M public raises under NI 45-110 through a registered portal (investor caps $2,500/$10,000, all-or-nothing, 48-h withdrawal, F1/F2 forms — French-first in Quebec); larger raises via offering memorandum; accredited rounds uncapped. Revenue-share is delivered through <b>limited-partnership units</b> — an eligible security — never bare royalty contracts.<span class="src">5</span></li>
-      <li><b>The addy lesson, internalized.</b> addy's $100K penalty for pre-registration trading<span class="src">9</span> defines our sequencing: Phase 1 earns revenue with zero securities exposure; Phase 2 rides a registered partner; Phase 3 registers Clé Capital inc. as an EMD ($50K capital, designated CCO, audited filings<span class="src">5</span>) inside a separate entity that never touches platform operations.</li>
-      <li><b>Privacy &amp; language.</b> Law 25 program (privacy officer, PIAs, consent registry) and Charter-compliant French-first product — both already reflected in the prototype.</li>
-    </ul>
-  </div>
-
-  <!-- ═══ 09 RISKS ═══ -->
-  <div class="sec pb" id="s9">
-    <div class="kicker">09 · Risks &amp; mitigations</div>
-    <h2>What we worry about, and what we do about it</h2>
-    <div class="tablewrap"><table>
-      <tr><th style="width:34%">Risk</th><th>Mitigation</th></tr>
-      <tr><td>Canadian retail-investing channel stays small (today ~$5M/yr under 45-110<span class="src">5</span>)</td><td>Capital is deliberately ~10% of FY31 revenue and sized in OM/accredited lanes; listings + subscriptions alone reach profitability (see sensitivity). Upside optionality, not dependency.</td></tr>
-      <tr><td>Desjardins reignites DuProprio against us</td><td>See §07: a defensive price war costs them ~$14M/yr on one product vs. ~7% of our five-stream FY31 revenue; their observed shipping cadence under bank ownership prices in our 18-month head start.</td></tr>
-      <tr><td>EMD registration slips</td><td>Partner-portal Phase 2 continues indefinitely; sequencing means no revenue depends on the licence date.</td></tr>
-      <tr><td>Real-estate cycle turns</td><td>FSBO share historically <i>rises</i> in soft markets as sellers protect equity; subscriptions and coaching are counter-cyclical.</td></tr>
-      <tr><td>Group purchases generate disputes</td><td>Statutory governance defaults, mandatory notarized conventions, reserve funds and exit clauses are enforced in-product — the disputes that kill co-ownership are precisely the unpapered ones.</td></tr>
-      <tr><td>Two-sided cold start</td><td>Sellers arrive for a ~$23K saving (single-player value); professionals follow the leads; capital follows the deal flow. Each engine seeds the next — no side waits for the other.</td></tr>
-    </table></div>
-  </div>
-
-  <!-- ═══ 10 TEAM ═══ -->
-  <div class="sec pb" id="s10">
-    <div class="kicker">10 · The team</div>
-    <h2>Who is behind Clé</h2>
-    <p class="small muted">To be completed by the founder before circulation — the bracketed fields below are intentional placeholders. Investors fund people first; this page should carry the strongest proof available.</p>
-    <div class="grid g2">
-      <div class="tile"><b>[Founder name] — Founder &amp; CEO</b><div class="s">[Two lines: directly relevant proof — real-estate operating experience, prior ventures, transactions closed, community standing in the Montréal market. Why this person wins this market.]</div></div>
-      <div class="tile"><b>[Co-founder / CTO name]</b><div class="s">[Two lines: product and engineering track record; the prototype demonstrates the bar. If unfilled: "Recruiting — funded by this round; interim engineering led by (agency/contractor)."]</div></div>
-      <div class="tile"><b>[Securities counsel — firm]</b><div class="s">[Named Quebec securities lawyer/firm advising on the 45-110/OM/EMD path — the credibility anchor for §08.]</div></div>
-      <div class="tile"><b>[Partner notary — office]</b><div class="s">[Named notarial office anchoring FSBO closings, buy-group conventions and trust accounts.]</div></div>
-    </div>
-    <h3>Stated gaps &amp; hiring plan</h3>
-    <ul class="small">
-      <li><b>Chief Compliance Officer</b> — hired in Phase 3 ahead of the EMD application (budgeted at market comp in §06).<span class="src">5</span></li>
-      <li><b>Head of Growth (Québec)</b> — first senior hire post-close; bilingual consumer-marketplace background.</li>
-      <li><b>Advisory board</b> — targeting one FSBO-industry operator, one exempt-market executive, one co-ownership practitioner.</li>
-    </ul>
-  </div>
-
-  <!-- ═══ 11 ASK ═══ -->
-  <div class="sec pb" id="s11">
-    <div class="kicker">11 · The ask</div>
-    <h2>$3.5M seed — 24 months through launch to the capital phase</h2>
-    <div class="grid g2">
-      <div>
-        <h3 style="margin-top:0">Use of funds</h3>
-        <div style="display:grid;gap:10px;font-size:13px">
-          <div><div style="display:flex;justify-content:space-between"><span>Product &amp; engineering</span><b class="num">36% · $1.26M</b></div><div style="height:8px;background:#e7e5e4;border-radius:4px"><div style="width:36%;height:8px;background:#065f46;border-radius:4px"></div></div></div>
-          <div><div style="display:flex;justify-content:space-between"><span>Growth &amp; brand (Montréal beachhead)</span><b class="num">28% · $0.98M</b></div><div style="height:8px;background:#e7e5e4;border-radius:4px"><div style="width:28%;height:8px;background:#047857;border-radius:4px"></div></div></div>
-          <div><div style="display:flex;justify-content:space-between"><span>Compliance, legal &amp; EMD build</span><b class="num">18% · $0.63M</b></div><div style="height:8px;background:#e7e5e4;border-radius:4px"><div style="width:18%;height:8px;background:#d97706;border-radius:4px"></div></div></div>
-          <div><div style="display:flex;justify-content:space-between"><span>Operations &amp; reserve</span><b class="num">18% · $0.63M</b></div><div style="height:8px;background:#e7e5e4;border-radius:4px"><div style="width:18%;height:8px;background:#a8a29e;border-radius:4px"></div></div></div>
-        </div>
-        <p class="small muted" style="margin-top:12px">Québec leverage not counted in runway: CRIC credits from year one, CDAE-IA credits once six eligible employees are sustained, and Fonds Impulsion co-investment can extend effective runway by 4–6 months.<span class="src">8</span></p>
-      </div>
-      <div>
-        <h3 style="margin-top:0">What $3.5M buys</h3>
-        <ul class="small">
-          <li>Production build of the five engines (prototype → platform), FR/EN/IT</li>
-          <li>Montréal launch: 1,200 paid listings, 700 Pro subscribers, 34 buy-groups closed (cumulative)</li>
-          <li>Registered-portal partnership live; first $2M campaign GMV</li>
-          <li>Clé Capital inc. EMD application filed with the AMF</li>
-          <li>≈$2.4M revenue in year 2 (≈$3.4M annualized run-rate exiting the year) — positioned for a Series A into the capital-platform scale-up</li>
-        </ul>
-        <p class="callout" style="margin-top:14px">Canadian proptech attracted <b>C$450M across 30 rounds in 2025</b><span class="src">8</span>; co-ownership specifically drew institutional cheques (Scotiabank, CMHC, Pacaso's US$72.5M). Clé sits at the intersection of the two funded theses — with working software, live at <a href="https://ssocciarelli.github.io/cle-demo/">ssocciarelli.github.io/cle-demo</a>.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- ═══ 12 SOURCES ═══ -->
-  <div class="sec pb" id="s12">
-    <div class="kicker">12 · Sources, methodology &amp; disclaimers</div>
-    <h2>Every number has a home</h2>
-    <ol class="small" style="columns:2;gap:32px">
-      <li>QPAREB / APCIQ annual releases, Jan 2025 &amp; Jan 2026 (2025 transactions, medians, Montréal CMA).</li>
-      <li>OwnerListed Quebec FSBO guide (2026); Purplebricks Group RNS (July 2018) for the 20.2% historical peak.</li>
-      <li>DuProprio public pricing (2025); Purplebricks RNS 2018 (FY2017 revenue/EBITDA, NPS, per-listing revenue); Desjardins acquisition release (2020).</li>
-      <li>XpertSource / clicagents commission surveys; pool computed on QPAREB volumes × the 4–6% commission range (~5% typical), quoted at the conservative ~$2.1B.</li>
-      <li>NI 45-110 consolidated text (FCNB, 2021); NI 31-103 EMD capital requirements; Farris/PCMA EMD cost analyses; FrontFundr FY2025 results release.</li>
-      <li>Arrived and Fundrise public metrics; Willow/Guiker transaction reporting (BetaKit, 2023).</li>
-      <li>Ourboro press releases (250+ homes, Scotiabank/CMHC); Key seed round (BetaKit, 2022); Pacaso Reg A+ (2025).</li>
-      <li>CVCA Year-End 2025; Proptech Collective 2025 (RENX/BetaKit); Investissement Québec — CRIC, CDAE-IA (2026 rules), Fonds Impulsion.</li>
-      <li>BCSC settlement release 2025-15 (addy Technology Corp.).</li>
-      <li>Groupe Mackay / QPAREB-sourced FSBO discount claims — treated as a contested industry position.</li>
-      <li>Statistics Canada, real-estate brokerage industry operating revenue, 2023 — corroboration of the commission pool.</li>
-      <li>Civil Code of Québec, art. 1026 (co-ownership decisions); Chambre des notaires guidance on indivision agreements.</li>
-    </ol>
-    <h3>Methodology</h3>
-    <p class="small muted">Market figures were compiled via structured multi-source research with conflict-flagging (diverging estimates are cited as ranges; the most conservative documented figure is preferred). Projections come from a parameterized five-year model whose every assumption appears in §06; the model is available in source form. This document was drafted with AI research assistance under human direction, then subjected to an adversarial review (investor-perspective critique and independent arithmetic verification) whose corrections are incorporated. All primary figures should be independently re-verified in diligence.</p>
-    <footer class="note">
-      <b>Important notices.</b> This document is a confidential draft prepared for discussion with prospective investors and advisors. It is not an offering document, prospectus, or solicitation of securities, and nothing in it constitutes legal, tax or investment advice. Any offering of Clé securities, if undertaken, would be made only to qualifying investors under available prospectus exemptions of applicable Canadian securities legislation (including Regulation 45-106 respecting Prospectus Exemptions (Québec)) and only through definitive subscription documents; no securities regulatory authority has reviewed or passed upon anything described herein. Clé currently holds no licence under Quebec’s Real Estate Brokerage Act (OACIQ) and no registration with the AMF, and carries on no regulated activity; regulated features shown in the demonstration are simulations. Version française disponible sur demande. Financial projections are illustrative targets, not forecasts or guarantees; actual results will differ materially. The Clé product demonstration contains exclusively fictional people, properties and transactions. Company name, entity structure, team composition and figures are subject to change upon incorporation and legal review. © 2026 — Clé (project). Prepared August 2026.
-    </footer>
-  </div>
-
-</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function setLang(l,update){
+    root.setAttribute('data-lang',l);
+    root.lang=l==='en'?'en-CA':'fr-CA';
+    document.title=root.getAttribute('data-title-'+l);
+    [].forEach.call(document.querySelectorAll('[data-set-lang]'),function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-set-lang')===l))});
+    [].forEach.call(document.querySelectorAll('a[data-keep-lang]'),function(a){var h=a.getAttribute('href').split('?')[0];a.setAttribute('href',l==='en'?h+'?lang=en':h)});
+    if(update){try{var u=new URL(location.href);if(l==='en')u.searchParams.set('lang','en');else u.searchParams.delete('lang');history.replaceState(null,'',u.toString())}catch(e){}}
+  }
+  var q=null;try{q=new URLSearchParams(location.search).get('lang')}catch(e){}
+  setLang(q==='en'?'en':'fr',false);
+  [].forEach.call(document.querySelectorAll('[data-set-lang]'),function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-set-lang'),true)})});
+})();
+</script>
+</body>
+</html>
